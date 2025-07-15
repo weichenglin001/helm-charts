@@ -100,8 +100,8 @@ config:
   # minio.endpoint can be configured as an intranet address,
   # minio.signEndpoint is minio public network address
   object:
-    enable: "minio"
-    apiURL: "https://openim1.server.top/api"
+    enable: "aws"
+    #apiURL: "https://openim1.server.top/api"
     minio:
       bucket: "openim"
       endpoint: "http://im-minio:9000"
@@ -133,11 +133,11 @@ config:
       sessionToken: ''
       publicRead: false
     aws:
-      endpoint: "''" # This might not be necessary unless you're using a custom endpoint
-      region: "us-east-1"
-      bucket: "demo-9999999"
-      accessKeyID: ''
-      accessKeySecret: ''
+      #endpoint: "''" # This might not be necessary unless you're using a custom endpoint
+      region: "ap-southeast-1"
+      bucket: "openim-test-secure-bucket"
+      accessKeyID: 'AKIASU566IPTUMTZH7VV'
+      accessKeySecret: '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'
       publicRead: false
 
   ###################### RPC Port Configuration ######################
