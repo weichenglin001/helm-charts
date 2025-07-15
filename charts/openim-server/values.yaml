@@ -81,6 +81,7 @@ global:
     honorLabels: false
     metricRelabelings: []
     relabelings: []
+    msggatewayReplicaCount: 1
 
 autoscaling:
   enabled: false
